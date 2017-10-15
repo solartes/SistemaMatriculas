@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="SistemaAcademicoPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>sistemaacademico.Programa</class>
+    <class>sistemaacademico.Departamento</class>
+    <class>sistemaacademico.MateriaOfertada</class>
+    <class>sistemaacademico.Nota</class>
+    <class>sistemaacademico.Horario</class>
+    <class>sistemaacademico.Estudiante</class>
+    <class>sistemaacademico.Grupo</class>
+    <class>sistemaacademico.Profesor</class>
+    <class>sistemaacademico.Persona</class>
+    <class>sistemaacademico.Salon</class>
+    <class>sistemaacademico.MateriaGrupoProfesor</class>
+    <class>sistemaacademico.Facultad</class>
+    <class>sistemaacademico.PeriodoAcademico</class>
+    <class>sistemaacademico.Materia</class>
+    <class>entidades.Persona</class>
+    <class>entidades.Profesor</class>
+    <class>entidades.MateriaGrupoProfesor</class>
+    <class>entidades.Grupo</class>
+    <class>entidades.Estudiante</class>
+    <class>entidades.MateriaOfertada</class>
+    <class>entidades.Materia</class>
+    <class>entidades.Facultad</class>
+    <class>entidades.PeriodoAcademico</class>
+    <class>entidades.Horario</class>
+    <class>entidades.Salon</class>
+    <class>entidades.Nota</class>
+    <class>entidades.Departamento</class>
+    <class>entidades.Programa</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:XE"/>
+      <property name="javax.persistence.jdbc.user" value="SistemaAcademicoBD"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="oracle"/>
+    </properties>
+  </persistence-unit>
+</persistence>
