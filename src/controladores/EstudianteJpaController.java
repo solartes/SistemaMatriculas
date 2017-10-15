@@ -278,7 +278,7 @@ public class EstudianteJpaController implements Serializable {
 
     public Estudiante findEstudiante(Long id) {
         EntityManager em = getEntityManager();
-        try {
+        try {            
             return em.find(Estudiante.class, id);
         } finally {
             em.close();

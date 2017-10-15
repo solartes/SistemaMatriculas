@@ -32,9 +32,9 @@
     <class>entidades.Programa</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:XE"/>
-      <property name="javax.persistence.jdbc.user" value="SistemaAcademicoBD"/>
+      <property name="javax.persistence.jdbc.user" value="No hay nada"/>
       <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
-      <property name="javax.persistence.jdbc.password" value="oracle"/>
+      <property name="javax.persistence.jdbc.password" value="no hay nada"/>
     </properties>
   </persistence-unit>
 </persistence>
